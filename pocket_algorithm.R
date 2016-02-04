@@ -1,4 +1,8 @@
 #Implementing Pocket algorithm for perceptron model
+rm(list=ls(all=TRUE))
+source("calculate_output.R")
+source("initialise.R")
+require(graphics)
 min_e_in <- 1000000000
 min_weights <- vector(mode = 'numeric', length = 0)
 for(i in 1:100){

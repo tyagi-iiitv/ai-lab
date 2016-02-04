@@ -1,4 +1,8 @@
 #Checking for 30-70
+rm(list=ls(all=TRUE))
+source("calculate_output.R")
+source("initialise.R")
+require(graphics)
 for(i in 1:100){
   weights_temp <- weights
   # print(weights_temp)

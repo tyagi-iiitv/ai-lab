@@ -1,4 +1,7 @@
 #Checking for 30-70
+rm(list=ls(all=TRUE))
+source("calculate_output.R")
+source("initialise.R")
 require(graphics)
 for(i in 1:2500){
   weights_temp <- weights
@@ -53,5 +56,6 @@ for(i in 1:2500){
 # print(".....\n")
 # print(e_temp_out)
 # plot(e_temp_out)
-plot(e_temp_in)
-lines(e_temp_in)
+# lines(e_temp_out)
+# plot(e_temp_in)
+# lines(e_temp_in)
